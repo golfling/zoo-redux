@@ -5,8 +5,7 @@ class TextInfoLine extends StatefulWidget {
     Key? key,
     required this.name,
     required this.controller,
-  })  : 
-        super(key: key);
+  }) : super(key: key);
 
   final Widget name;
   final TextEditingController controller;
